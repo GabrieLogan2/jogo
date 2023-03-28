@@ -1,7 +1,7 @@
 var perguntas = [	{		pergunta: "Qual é a minha cor favorita?",		resposta: "azul",		opcoes: ["rosa", "azul", "verde"]
 	},
 	{
-		pergunta: "Qual é a relação entre Educação e Desenvolvimento Humano?",
+		pergunta: "Qual meu filme favorito?",
 		resposta: "O ódio que você semeia",
 		opcoes: ["Titanic", "O ódio que você semeia", "Taxi driver"]
 	},
@@ -44,11 +44,6 @@ var perguntas = [	{		pergunta: "Qual é a minha cor favorita?",		resposta: "azul
 		pergunta: "Onde foi nosso primeiro beijo",
 		resposta: "Orla",
 		opcoes: ["Na rua", "Em casa" , "Orla"]
-	},
-    {
-		pergunta: "Você me ama?",
-		resposta: "Sim",
-		opcoes: ["Sim","Sim", "Sim"]
 	},
     {
 		pergunta: "Você me ama?",
