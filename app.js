@@ -83,11 +83,11 @@ function verificarResposta(evento) {
 
 	if (respostaSelecionada === perguntaAtual.resposta) {
 		pontuacao++;
-		document.getElementById("opcoes").innerHTML = "<p>Parabéns, você acertou!</p>";
+		document.getElementById("opcoes").innerHTML = "<p>Parabéns, você acertou! vai ganhar um beijo se continuar assim hein.</p>";
 		document.getElementById("opcoes").innerHTML += "<button id='proxima'>Próxima Pergunta</button>";
 		document.getElementById("proxima").addEventListener("click", proximaPergunta);
 	} else {
-		document.getElementById("opcoes").innerHTML = "<p>Ihhh, você errou!</p>";
+		document.getElementById("opcoes").innerHTML = "<p>Ihhh, você errou! tá perdendo a chance de dar um beijo em mim</p>";
 		document.getElementById("opcoes").innerHTML += "<button id='proxima'>Próxima Pergunta</button>";
 		document.getElementById("proxima").addEventListener("click", proximaPergunta);
 	}
