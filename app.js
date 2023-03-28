@@ -3,7 +3,7 @@ var perguntas = [	{		pergunta: "Qual é a minha cor favorita?",		resposta: "azul
 	{
 		pergunta: "Qual meu filme favorito?",
 		resposta: "O ódio que você semeia",
-		opcoes: ["Titanic", "O ódio que você semeia", "Taxi driver"]
+		opcoes: ["Titanic", "O ódio que você semeia", "Taxi driver", "Peppa pig"]
 	},
 	{
 		pergunta: "Qual é o meu lugar favorito para viajar?",
